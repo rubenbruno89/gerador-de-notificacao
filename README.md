@@ -2,7 +2,7 @@
 
 Um gerador simples e prático de mensagens automáticas que facilita a criação de textos personalizados (como lembretes de vencimento, cobrança, boas vindas, etc.) diretamente no navegador — sem precisar instalar nada.
 
-🔗 Acesse: https://rubenbruno89.github.io/gerador-de-notificacao/ :contentReference[oaicite:1]{index=1}
+🔗 Acesse: https://rubenbruno89.github.io/gerador-de-notificacao/ 
 
 ---
 
