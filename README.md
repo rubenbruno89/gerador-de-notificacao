@@ -15,7 +15,7 @@ Este projeto é uma ferramenta web que permite gerar mensagens personalizadas a 
 - 📎 envio com comprovante
 - entre outros textos padrões personalizados
 
-Tudo funciona direto no navegador, sem precisar fazer login ou instalar nada. :contentReference[oaicite:2]{index=2}
+Tudo funciona direto no navegador, sem precisar fazer login ou instalar nada.
 
 ---
 
@@ -27,7 +27,7 @@ Tudo funciona direto no navegador, sem precisar fazer login ou instalar nada. :c
 ✔️ Copiar para a área de transferência  
 ✔️ Baixar a mensagem em `.txt`  
 ✔️ Limpar os dados do formulário  
-✔️ Pré-visualização em tempo real :contentReference[oaicite:3]{index=3}
+✔️ Pré-visualização em tempo real
 
 ---
 
@@ -42,7 +42,7 @@ Tudo funciona direto no navegador, sem precisar fazer login ou instalar nada. :c
    - **Valor**
    - **Dias antes**
    - **PIX / chave**
-   - **Link de pagamento** :contentReference[oaicite:5]{index=5}
+   - **Link de pagamento**
 
 3. Selecione o tipo de mensagem desejado  
 4. Clique em **Gerar Mensagem**  
@@ -63,3 +63,7 @@ Esse projeto é construído com tecnologias web básicas:
 ## 📦 Organização do Repositório
 
 O repositório contém:
+📄 index.html – página principal
+📄 style.css – estilos visuais
+📄 script.js – lógica de geração de textos
+README.md – esta documentação
