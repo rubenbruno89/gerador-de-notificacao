@@ -34,7 +34,7 @@ Tudo funciona direto no navegador, sem precisar fazer login ou instalar nada. :c
 ## 📁 Como usar
 
 1. Acesse a página do projeto:  
-   👉 https://rubenbruno89.github.io/gerador-de-notificacao/ :contentReference[oaicite:4]{index=4}
+   👉 https://rubenbruno89.github.io/gerador-de-notificacao/
 
 2. Preencha os campos:
    - **Nome completo**
