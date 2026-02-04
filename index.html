@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gerador de Notificações</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+  {
+    "imports": {}
+  }
+  </script>
+</head>
+<body>
+  <main id="app">
+    <section class="panel inputs">
+      <div class="row">
+        <label>Nome completo
+          <input id="nome" type="text" inputmode="text" placeholder="Ex: Maria Silva">
+        </label>
+        <label>Vencimento
+          <input id="vencimento" type="date">
+        </label>
+      </div>
+      <div class="row">
+        <label>Valor (use ponto ou vírgula)
+          <input id="valor" type="text" inputmode="decimal" placeholder="Ex: 120.50">
+        </label>
+        <label>Dias (para 'Dias antes')
+          <input id="dias" type="number" min="0" value="3">
+        </label>
+      </div>
+      <div class="row">
+        <label>PIX (chave)
+          <input id="pix" type="text" placeholder="Ex: email@exemplo.com / 11999999999">
+        </label>
+        <label>Link de pagamento
+          <input id="link" type="url" placeholder="https://">
+        </label>
+      </div>
+
+      <div class="templates">
+        <button data-tpl="dias" class="tpl-btn active">DIAS ANTES</button>
+        <button data-tpl="dia" class="tpl-btn">NO DIA</button>
+        <button data-tpl="vencida" class="tpl-btn">VENCIDA</button>
+        <button data-tpl="comprovante" class="tpl-btn">COMPROVANTE</button>
+        <button data-tpl="boasvindas" class="tpl-btn">BOAS VINDAS</button>
+      </div>
+
+      <div class="actions">
+        <button id="generate" class="primary">Gerar mensagem</button>
+        <button id="copy">Copiar</button>
+        <button id="download">Baixar .txt</button>
+        <button id="reset">Limpar</button>
+      </div>
+    </section>
+
+    <section class="panel preview">
+      <div class="header">
+        <small>Pré-visualização</small>
+        <div id="meta" class="meta"></div>
+      </div>
+      <pre id="output" class="output" aria-live="polite"></pre>
+    </section>
+  </main>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
