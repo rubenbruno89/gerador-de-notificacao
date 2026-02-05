@@ -11,11 +11,11 @@ DADOS DA FATURA
 ------------------------------------
 
 
-🏦 Pagamento via PIX:
+🏦 Pagamento via PIX: #PIX#
 
 📲 Clique no link Chave abaixo para Fazer o Pagamento.
 
-🔑 #PIX#  #LINKPAGAMENTO#
+🔑 #LINKPAGAMENTO#
 
 
 Após o pagamento encaminhar o comprovante via whatsapp.`,
@@ -31,11 +31,11 @@ DADOS DA FATURA
 ------------------------------------
 
 
-🏦 Pagamento via PIX:
+🏦 Pagamento via PIX: #PIX#
 
 📲 Clique no link Chave abaixo para Fazer o Pagamento.
 
-🔑 #PIX#  #LINKPAGAMENTO#
+🔑 #LINKPAGAMENTO#
 
 
 Após o pagamento encaminhar o comprovante via whatsapp.`,
@@ -51,11 +51,11 @@ DADOS DA FATURA
 ------------------------------------
 
 
-🏦 Pagamento via PIX:
+🏦 Pagamento via PIX: #PIX# 
 
 📲 Clique no link Chave abaixo para Fazer o Pagamento.
 
-🔑 #PIX#  #LINKPAGAMENTO#
+🔑 #LINKPAGAMENTO#
 
 
 Após o pagamento encaminhar o comprovante via whatsapp..`,
